@@ -1,0 +1,11 @@
+C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\obj\Debug\Saugumas4.csprojAssemblyReference.cache
+C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\obj\Debug\Saugumas4.Form1.resources
+C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\obj\Debug\Saugumas4.Properties.Resources.resources
+C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\obj\Debug\Saugumas4.csproj.GenerateResource.cache
+C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\obj\Debug\Saugumas4.csproj.CoreCompileInputs.cache
+C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\bin\Debug\Saugumas4.exe.config
+C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\bin\Debug\Saugumas4.exe
+C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\bin\Debug\Saugumas4.pdb
+C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\obj\Debug\Saugumas4.exe
+C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\obj\Debug\Saugumas4.pdb
+C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\obj\Debug\Saugumas4.Registracija.resources
