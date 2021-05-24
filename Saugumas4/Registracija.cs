@@ -35,7 +35,7 @@ namespace Saugumas4
                     write.WriteLine(confirmpass);
                 }
                 MessageBox.Show("AES");
-                byte[] encripted = Encrypt(username ,aes.Key ,aes.IV); 
+                //byte[] encripted = Encrypt(username ,aes.Key ,aes.IV); 
             }
             else
             {

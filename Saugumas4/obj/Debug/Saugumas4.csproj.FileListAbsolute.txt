@@ -9,3 +9,4 @@ C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\
 C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\obj\Debug\Saugumas4.exe
 C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\obj\Debug\Saugumas4.pdb
 C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\obj\Debug\Saugumas4.Registracija.resources
+C:\Users\Eimucio\Desktop\Studijos\2 metai antras pusmetis\Informacijos saugumas\Saugumas4\Saugumas4\obj\Debug\Saugumas4.Prisijungimas.resources
