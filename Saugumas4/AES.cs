@@ -118,5 +118,27 @@ namespace Saugumas4
                 fsCrypt.Close();
             }
         }
+
+        //BCrypt
+        private static string RandomSalt()
+        {
+            return BCrypt.Net.BCrypt.GenerateSalt(12);
+        }
+
+        public static string HashPassword(string cryptedpass)
+        {
+            return BCrypt.Net.BCrypt.HashPassword(cryptedpass, RandomSalt());
+        }
+
+        /*public static string Decrypt(string cryptedpass)
+        {
+           
+        }*/
+
+        public static bool ValidatePassword(string cryptedpass, string koksturibut)
+        {
+            return BCrypt.Net.BCrypt.Verify(cryptedpass, koksturibut);
+        }
+
     }
 }

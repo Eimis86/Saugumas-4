@@ -8,55 +8,21 @@ namespace Saugumas4
     {
         public string mainfile = "C:\\Users\\Eimucio\\Desktop\\Studijos\\2 metai antras pusmetis\\Informacijos saugumas\\Saugumas4\\Saugumas4\\bin\\Debug\\db.txt";
         //public string mainfilede = "C:\\Users\\Eimucio\\Desktop\\Studijos\\2 metai antras pusmetis\\Informacijos saugumas\\Saugumas4\\Saugumas4\\bin\\Debug\\naujas.txt";
-
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            if (MessageBox.Show("You want to close and encrypt?", "Close", MessageBoxButtons.YesNo) == DialogResult.Yes)
-            {
-                AES.FileEncrypt(mainfile, "grazus");
-                
-                File.Delete(mainfile);
-                e.Cancel = false;
-                
-            }
-            else if (MessageBox.Show("You want to close and encrypt?", "Close", MessageBoxButtons.YesNo) == DialogResult.No)
-            {
-                e.Cancel = true;
-            }
-        }
+        string username = String.Empty;
+        string password = String.Empty;
+        Users users;
 
         public Form1()
         {
             InitializeComponent();
-            createfileandcheck();
-
-            this.FormClosing += Form1_FormClosing;
-        }
-
-        public void createfileandcheck()
-        {
-            try
-            {
-                if (File.Exists(mainfile + ".aes"))
-                {
-                    AES.FileDecrypt(mainfile + ".aes", mainfile, "grazus");
-                    File.Delete(mainfile+".aes");
-                }
-                else
-                {
-                    StreamWriter writer = new StreamWriter(mainfile);
-                    writer.Close();
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex);
-            }
+            //createfileandcheck();
+           // this.users = users;
+            //this.FormClosing += Form1_FormClosing;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Prisijungimas f = new Prisijungimas();
+            Prisijungimas f = new Prisijungimas(users);
             f.Show();
             this.Hide();
         }
